@@ -23,7 +23,7 @@
     <fragment
         android:id="@+id/fragment"
         android:name="com.crisspian.fragment_guide_01.FirstFragment"
-        android:layout_width="134dp"
+        android:layout_width="0dp"
         android:layout_height="35dp"
         android:layout_marginTop="43dp"
         app:layout_constraintEnd_toEndOf="parent"
