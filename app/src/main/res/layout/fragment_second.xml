@@ -3,36 +3,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#FF9800"
-    tools:context=".FirstFragment">
+    android:background="#2196F3"
+    tools:context=".SecondFragment">
 
     <!-- TODO: Update blank fragment layout -->
+
     <TextView
-        android:id="@+id/textFragmento1"
+        android:id="@+id/textFragamento2"
         android:layout_width="265dp"
         android:layout_height="32dp"
         android:layout_weight="0.1"
-        android:text="soy un pokemon"
+        android:text="Quieres ir a Youtube?"
         android:textSize="24sp" />
 
     <RadioGroup
-        android:id="@+id/RadioGroup1"
+        android:id="@+id/RadioGroup2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="0.9"
         android:orientation="horizontal">
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/radioButton3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Si" />
+            android:text="si" />
 
         <RadioButton
-            android:id="@+id/radioButton1"
+            android:id="@+id/radioButton4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="No" />
+            android:text="no" />
+
     </RadioGroup>
 
 </LinearLayout>
